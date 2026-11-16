@@ -1,0 +1,147 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800;900&family=Inter:wght@400;500;600;700&family=Russo+One&display=swap');
+:root{--bg:#070b13;--panel:#111925;--panel2:#141e2c;--gold:#f3d56a;--text:#f4f5f8;--muted:#b6bfcb;--line:#293447}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,Arial,sans-serif;line-height:1.75}a{color:inherit;text-decoration:none}h1,h2,h3,p{margin-top:0}h1,h2,h3,.logo,.eyebrow,.card-kicker,.button{font-family:'Barlow Condensed',Impact,sans-serif}h2{font-size:clamp(2.4rem,5vw,4rem);line-height:1.05;letter-spacing:.02em;margin-bottom:18px}h3{font-size:2rem;line-height:1.1;margin-bottom:12px}.site-header{position:relative;z-index:10;display:flex;align-items:center;justify-content:space-between;gap:20px;padding:20px max(5%,calc((100vw - 1200px)/2));border-bottom:1px solid #283244;background:#080d16}.logo{font-size:1.7rem;font-weight:900;letter-spacing:.07em;color:var(--gold);line-height:1}.logo span{display:block;letter-spacing:.15em}.site-header nav{display:flex;flex-wrap:wrap;gap:clamp(12px,2vw,30px)}.site-header nav a{font-size:.83rem;font-weight:600;color:#d1d8e2;transition:color .2s}.site-header nav a:hover,.site-header nav a:focus-visible{color:var(--gold)}.hero{min-height:670px;position:relative;overflow:hidden;display:flex;align-items:center;padding:90px max(7%,calc((100vw - 1150px)/2));background:radial-gradient(ellipse at 75% 55%,#1c314b 0%,#0b1424 38%,#070b13 75%)}.hero:before,.hero:after{content:"";position:absolute;inset:0;pointer-events:none;background-image:radial-gradient(1px 1px at 12% 14%,#fff 99%,transparent),radial-gradient(2px 2px at 63% 22%,#fff 99%,transparent),radial-gradient(1px 1px at 80% 70%,#fff 99%,transparent),radial-gradient(1px 1px at 45% 84%,#fff 99%,transparent),radial-gradient(2px 2px at 91% 35%,#fff 99%,transparent);background-size:260px 220px;opacity:.6}.hero:after{transform:translate(95px,70px);opacity:.35}.hero-content{position:relative;z-index:2;max-width:670px}.eyebrow,.card-kicker{color:var(--gold);font-size:1rem;letter-spacing:.19em;font-weight:700;margin-bottom:18px}.hero h1{font-weight:900;font-size:clamp(4rem,9vw,8rem);line-height:.88;letter-spacing:.025em;margin:0 0 28px;text-shadow:0 4px 25px #0007}.hero h1 span{color:var(--gold)}.hero-content>p:not(.eyebrow){max-width:550px;color:#d4dce6;font-size:1.08rem;margin-bottom:30px}.button{display:inline-flex;align-items:center;gap:14px;padding:12px 25px;border-radius:4px;background:var(--gold);color:#0a0d14;font-weight:800;font-size:1.1rem;letter-spacing:.07em;transition:transform .2s,background .2s}.button:hover{transform:translateY(-2px);background:#ffe69b}.planet{position:absolute;width:420px;height:420px;right:-110px;top:85px;border-radius:50%;background:radial-gradient(circle at 30% 35%,#52657b 0%,#293a52 24%,#101c2b 53%,#060c15 73%);box-shadow:-22px -5px 75px #527c9a36,inset 18px 3px 50px #8fb5d018;opacity:.8}.hero-glow{position:absolute;right:10%;bottom:-220px;width:400px;height:450px;background:#337ca92a;filter:blur(100px)}.section{padding:105px max(7%,calc((100vw - 1150px)/2))}.section-heading{max-width:770px;margin-bottom:42px}.section-heading>p:last-child:not(.eyebrow){color:var(--muted);font-size:1.05rem}.about-section{background:#0c121d}.about-grid{display:grid;grid-template-columns:1fr 1.3fr;gap:55px;align-items:center}.quote-card{min-height:315px;padding:38px;background:linear-gradient(140deg,#1b2a3b,#101722);border:1px solid #354357;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center}.quote-mark{font-size:5rem;color:var(--gold);font-family:Georgia,serif;line-height:1}.quote-card p{font-size:clamp(1.5rem,3vw,2.2rem);font-style:italic;font-weight:600;line-height:1.35}.tiny-star{color:var(--gold);letter-spacing:1em}.about-copy p{color:#c7d0dc;margin-bottom:18px}.saga-section{background:#080d16}.cards{display:grid;gap:24px}.three-col{grid-template-columns:repeat(3,1fr)}.two-col{grid-template-columns:repeat(2,1fr)}.card{overflow:hidden;background:var(--panel);border:1px solid var(--line);border-radius:7px;transition:transform .2s,border-color .2s}.card:hover{transform:translateY(-5px);border-color:#76673b}.card-art{height:170px;display:flex;justify-content:center;align-items:center;position:relative;overflow:hidden}.card-art:before{content:"";position:absolute;width:160px;height:160px;border-radius:50%;border:2px solid #ffffff40;box-shadow:0 0 50px #ffffff25}.card-art span{position:relative;font-size:2.4rem;font-weight:900;font-family:'Barlow Condensed',sans-serif;letter-spacing:.12em}.art-prequels{background:radial-gradient(circle,#703b31,#261b25 65%,#14141c)}.art-original{background:radial-gradient(circle,#31567d,#152b40 65%,#0e1825)}.art-sequels{background:radial-gradient(circle,#56536b,#24263c 65%,#151724)}.card-body{padding:26px}.card-kicker{font-size:.8rem;letter-spacing:.14em;margin-bottom:12px}.card-body p:last-child{font-size:.93rem;color:var(--muted);margin-bottom:0}.games-section{background:#101722}.game-feature{display:grid;grid-template-columns:230px 1fr;gap:35px;align-items:center;padding:35px;background:linear-gradient(110deg,#1c2838,#131c29);border:1px solid #394557;border-radius:8px}.game-feature h3{font-size:2.5rem}.game-feature p:last-child{color:#c4cdda;margin:0}.game-icon{height:220px;background:linear-gradient(145deg,#f4d76b,#ae7f23);border-radius:12px;display:flex;align-items:center;justify-content:center;flex-direction:column;color:#12151c;font-size:5rem;line-height:1;font-weight:900;box-shadow:inset 0 0 40px #795b21}.game-icon span{font-family:Impact,sans-serif;font-size:3rem;letter-spacing:.05em}.game-tags{display:flex;flex-wrap:wrap;gap:12px;margin-top:23px}.game-tags span,.theme-tag{display:inline-block;border:1px solid #49586b;border-radius:30px;padding:8px 15px;font-size:.82rem;color:#d3dce8}.characters-section{background:#0a101a}.character-card{position:relative;overflow:hidden;min-height:420px;display:flex;align-items:flex-end;border:1px solid #354154;border-radius:8px}.anakin{background:radial-gradient(circle at 75% 20%,#8b3a30,#3a2029 43%,#131923 80%)}.luke{background:radial-gradient(circle at 75% 20%,#357a9d,#1d415c 43%,#111d2b 80%)}.character-symbol{position:absolute;right:40px;top:25px;font-size:10rem;opacity:.12;line-height:1}.character-content{position:relative;padding:38px}.character-content p:not(.card-kicker){color:#d6dde6}.theme-tag{margin-top:8px;color:var(--gold);border-color:#887648}.closing-section{text-align:center;padding:100px 20px;background:radial-gradient(ellipse at 50% 100%,#1a2b41,#090e18 70%)}.closing-section h2{font-size:clamp(2.5rem,6vw,4.4rem)}.closing-section>p:not(.eyebrow){max-width:680px;margin:0 auto 30px;color:#c6cfda}.button-outline{background:transparent;border:1px solid var(--gold);color:var(--gold)}.button-outline:hover{background:#f3d56a20}footer{display:flex;justify-content:space-between;gap:25px;flex-wrap:wrap;padding:25px 7%;border-top:1px solid var(--line);background:#070a10}footer p{font-size:.75rem;color:#a4afbe;margin:0}footer span{color:var(--gold);padding:0 7px}@media(max-width:850px){.site-header{flex-direction:column;align-items:flex-start}.three-col{grid-template-columns:1fr 1fr}.about-grid{grid-template-columns:1fr;gap:30px}.planet{right:-250px;opacity:.45}.hero{min-height:570px}.section{padding:75px 6%}}@media(max-width:600px){.site-header{padding:18px 6%}.site-header nav{gap:10px 17px}.site-header nav a{font-size:.77rem}.hero{padding:90px 6%;min-height:530px}.hero h1{font-size:clamp(3.4rem,13vw,5rem)}.three-col,.two-col{grid-template-columns:1fr}.game-feature{grid-template-columns:1fr;padding:24px}.game-icon{height:150px}.character-card{min-height:350px}.character-content{padding:26px}.section{padding:65px 6%}footer{padding:24px 6%}}
+
+/* Subtle scroll-triggered entrance animations */
+.reveal { opacity: 0; transform: translateY(30px); transition: opacity 750ms ease, transform 750ms cubic-bezier(.2,.75,.2,1), border-color 200ms ease; transition-delay: var(--reveal-delay, 0ms); }
+.reveal.is-visible { opacity: 1; transform: translateY(0); }
+/* Hover effects remain active after the reveal */
+.card.reveal.is-visible:hover { transform: translateY(-5px); }
+.character-card { transition: border-color 250ms ease, box-shadow 250ms ease; }
+.character-card:hover { border-color: var(--gold); box-shadow: 0 10px 35px #0005; }
+.game-icon { transition: transform 350ms ease; }
+.game-feature:hover .game-icon { transform: scale(1.035) rotate(-1deg); }
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .reveal { opacity: 1; transform: none; transition: none; }
+  .card, .button, .game-icon { transition: none; }
+}
+
+/* Photographs and cover art added to the original site */
+.death-star {position:absolute;right:1%;top:12%;width:min(36vw,440px);height:auto;max-height:490px;object-fit:contain;opacity:.86;filter:drop-shadow(0 0 42px #6b90b65e);pointer-events:none;z-index:1;animation:float-star 9s ease-in-out infinite alternate}
+@keyframes float-star {from{transform:translateY(0)}to{transform:translateY(-16px)}}
+.hero-content {max-width:690px}
+.game-feature {grid-template-columns:minmax(220px,340px) 1fr}
+.game-cover {display:block;width:100%;height:auto;aspect-ratio:460/215;object-fit:cover;border-radius:8px;box-shadow:0 15px 40px #0008;transition:transform .35s ease}
+.game-feature:hover .game-cover {transform:scale(1.035)}
+.character-card {isolation:isolate}
+.character-photo {position:absolute;inset:0 0 auto auto;width:100%;height:100%;object-fit:cover;object-position:center 25%;opacity:.52;z-index:-1;transition:transform .5s ease,opacity .4s ease}
+.character-card:hover .character-photo {transform:scale(1.05);opacity:.65}
+.character-card::before {content:"";position:absolute;inset:0;background:linear-gradient(to top,#080d17 0%,#0b111deb 36%,#0b111d55 80%);z-index:0;pointer-events:none}
+.character-content {z-index:1}
+@media(max-width:850px){.death-star{right:-8%;top:20%;width:44vw;opacity:.5}}
+@media(max-width:600px){.death-star{right:-25%;top:15%;width:80vw;opacity:.25}.game-feature{grid-template-columns:1fr}.character-photo{object-position:center 18%}}
+@media(prefers-reduced-motion:reduce){.death-star{animation:none}.game-cover,.character-photo{transition:none}}
+
+/* Skywalker Saga film cover artwork: one representative poster per trilogy */
+.saga-section .card-art { height: 310px; background-color: #131c29; }
+.saga-section .card-art::before { display: none; }
+.saga-section .trilogy-cover { display: block; width: 100%; height: 100%; object-fit: cover; object-position: center 28%; transition: transform .45s ease, filter .45s ease; }
+.saga-section .card-art::after { content: ""; position: absolute; inset: 0; background: linear-gradient(to top, rgba(5,8,16,.78), transparent 50%); pointer-events: none; }
+.saga-section .card-art span { position: absolute; z-index: 1; bottom: 13px; left: 20px; font-size: 1.65rem; color: #fff; text-shadow: 0 2px 10px #000; }
+.saga-section .card:hover .trilogy-cover { transform: scale(1.055); filter: brightness(1.08); }
+@media (prefers-reduced-motion: reduce) { .saga-section .trilogy-cover { transition: none; } }
+
+/* Show the cutout against the existing hero background. */
+.death-star{background:transparent;mix-blend-mode:normal;opacity:1}
+/* Display crisp poster artwork without zooming in and cutting off titles. */
+.saga-section .card-art{height:350px;background:#0d1521}
+.saga-section .trilogy-cover{object-fit:contain;object-position:center;background:#0d1521}
+@media(max-width:600px){.saga-section .card-art{height:390px}}
+
+
+/* Cinematic redesign based on the chosen homepage reference */
+:root {--bg:#030711;--panel:#08101e;--panel2:#0a1422;--gold:#ffdc38;--text:#f8f9fd;--muted:#c6d0dd;--line:#705d20}
+body {background:#030711 url('images/starfield.jpg') center top / 1920px auto repeat-y;}
+.site-header {position:sticky;top:0;z-index:20;background:rgba(2,6,13,.91);backdrop-filter:blur(13px);border-bottom:1px solid #e6bf33;box-shadow:0 2px 15px #e3b72a30;padding-top:13px;padding-bottom:13px;}
+.logo {font-size:2rem;letter-spacing:-.035em;line-height:.85;text-shadow:0 0 13px #d4ad3859;}
+.logo span {display:inline;letter-spacing:-.035em;}
+.site-header nav a {color:#fff;text-transform:uppercase;font-size:.8rem;letter-spacing:.035em;}
+.site-header nav a:first-child {color:#ffdc38;border-bottom:2px solid #ffdc38;}
+.hero {min-height:540px;padding-top:65px;padding-bottom:65px;background:linear-gradient(90deg,#03071155 0%,#03071120 100%);border-bottom:1px solid #4b688f6b;}
+.hero::before,.hero::after {display:none;}
+.hero-content {max-width:650px;}
+.hero .hero-eyebrow {font-family:Inter,Arial,sans-serif;color:#fff;font-size:clamp(.8rem,1.5vw,1.12rem);letter-spacing:.46em;font-weight:500;margin-bottom:14px;}
+.hero h1 {font-size:clamp(4.8rem,10vw,9rem);white-space:nowrap;color:var(--gold);font-weight:900;line-height:.92;letter-spacing:-.035em;text-shadow:0 0 25px #b38d2329;margin-bottom:8px;}
+.hero .hero-subtitle {font-size:clamp(.95rem,1.65vw,1.45rem)!important;letter-spacing:.23em;color:#fff!important;font-weight:600;line-height:1.4;margin-bottom:15px!important;}
+.hero-content>p:not(.eyebrow):not(.hero-subtitle){max-width:570px;color:#f2f4fa;font-size:1.02rem;line-height:1.55;}
+.hero .button {background:#080c14;color:#fff;border:2px solid var(--gold);box-shadow:0 0 12px #ffdc3870;border-radius:8px;font-family:Inter,Arial,sans-serif;font-size:.92rem;padding:10px 20px;}
+.hero .button:hover {background:#30280e;box-shadow:0 0 21px #ffdc3899;}
+.death-star {width:min(31vw,405px);right:8%;top:12%;filter:drop-shadow(0 0 28px #7f9db13b);}
+.hero-glow {display:none;}
+.section,.about-section,.saga-section,.games-section,.characters-section,.closing-section {background:transparent;}
+.section {padding-top:90px;padding-bottom:90px;scroll-margin-top:90px;}
+.section-heading {margin-bottom:35px;}
+.section-heading h2,.closing-section h2 {color:var(--gold);text-transform:uppercase;text-shadow:0 0 20px #ffcf362a;}
+.saga-section .section-heading {max-width:900px;margin-left:auto;margin-right:auto;text-align:center;}
+.saga-section .section-heading h2 {font-size:clamp(2.8rem,5.5vw,4.8rem);}
+.saga-section .section-heading>p:last-child {color:#eef1f7;}
+.card {border:1.5px solid #e8c23a;border-radius:13px;background:#050b17df;box-shadow:0 0 20px #ffdc381b;}
+.card:hover {border-color:#ffe56a;box-shadow:0 0 25px #ffdc384a;}
+.saga-section .card-art {height:290px;background:#050a13;}
+.saga-section .trilogy-cover {object-fit:cover;object-position:center 24%;}
+.saga-section .card-art span {color:#ffdf43;}
+.card-body {text-align:center;padding:20px 24px 27px;}
+.card-body h3 {color:var(--gold);text-transform:uppercase;font-size:1.8rem;}
+.card-body p:last-child {color:#f0f2f7;}
+.quote-card,.game-feature {background:#081221dc;border:1px solid #a28a36;box-shadow:0 0 24px #d7b22a16;}
+.character-card {border-color:#b69735;box-shadow:0 0 15px #f9d63b18;}
+.closing-section {border-top:1px solid #6b5c32;scroll-margin-top:85px;}
+footer {background:#030711dd;border-color:#6b5c32;}
+@media(max-width:1050px){.death-star{right:2%;width:33vw;opacity:.75}.hero-content{max-width:63%;}.hero h1{font-size:clamp(4.4rem,9vw,7rem)}}
+@media(max-width:700px){.site-header{position:relative}.hero{min-height:550px;padding-top:85px}.hero-content{max-width:100%}.hero h1{font-size:clamp(3.9rem,13vw,6rem)}.hero .hero-eyebrow{letter-spacing:.22em}.death-star{width:62vw;right:-19%;top:6%;opacity:.22}.saga-section .card-art{height:350px}.section{padding-top:65px;padding-bottom:65px}}
+
+
+/* Typography update: Star Wars logo only for the title.
+   Russo One gives section headings a similar bold sci-fi feel
+   with conventional A-Z letter mapping; Inter remains the body font. */
+@font-face {
+  font-family: 'Star Wars Logo Local';
+  src: url('fonts/Strjmono.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+/* Star Wars title in hero and masthead. */
+.site-header .logo,
+.hero h1 {
+  font-family: 'Star Wars Logo Local', Impact, 'Arial Black', sans-serif;
+  font-variant-ligatures: none;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: var(--gold);
+  line-height: 1.14;
+}
+.site-header .logo {font-size: clamp(1.2rem, 2.1vw, 1.9rem);letter-spacing: .035em;}
+.hero h1 {font-size: clamp(3.3rem, 7.1vw, 6.6rem);letter-spacing: 0;}
+
+/* All other headings use normal, readable letters. */
+h2, h3,
+.section-heading h2, .closing-section h2,
+.card-body h3, .character-content h3, .game-feature h3 {
+  font-family: 'Russo One', 'Arial Black', Impact, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-variant-ligatures: normal;
+  text-transform: uppercase;
+  letter-spacing: .018em;
+  line-height: 1.18;
+}
+.section-heading h2, .closing-section h2 {
+  color: var(--gold);
+  font-size: clamp(2rem, 3.8vw, 3.35rem);
+}
+.card-body h3, .character-content h3, .game-feature h3 {
+  font-size: clamp(1.4rem, 2.25vw, 2rem);
+}
+
+/* Keep the previous Inter typeface everywhere else. */
+body, p, .eyebrow, .card-kicker, .hero-subtitle, .theme-tag,
+.site-header nav a, .button, footer, .game-tags {
+  font-family: Inter, Arial, sans-serif;
+}
+@media (max-width: 700px) {
+  .hero h1 {font-size: clamp(2.6rem, 11vw, 4.6rem); white-space: normal;}
+  .section-heading h2, .closing-section h2 {font-size: clamp(1.8rem, 7vw, 2.8rem);}
+}
